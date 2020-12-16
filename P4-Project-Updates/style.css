@@ -653,7 +653,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
+
 h2,
 h3,
 h4,
@@ -795,7 +795,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color:White;
 }
 
 .btn-atomic-tangerine {
