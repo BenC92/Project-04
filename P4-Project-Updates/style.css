@@ -6,7 +6,18 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.btn {
+    text-align: center;
+    background-color:maroon;
+    transform: scale(1);
+    transition:  1005ms;
+      background-color:firebrick;
+      transform: scale(1.2);
+      border-radius: 50%;
+      padding: 10px;
+        
+    
+  }
 a,
 button {
     transition: all .3s ease-in-out;
