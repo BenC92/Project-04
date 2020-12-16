@@ -11,13 +11,18 @@ body {
     background-color:maroon;
     transform: scale(1);
     transition:  1005ms;
-      background-color:firebrick;
-      transform: scale(1.2);
-      border-radius: 50%;
-      padding: 10px;
-        
-    
+    color:white;
   }
+
+  .px-0{
+      color:teal;
+      font-size: 30px;
+  }
+
+  .px-1{
+      font-size: 15px;
+  }
+  
 a,
 button {
     transition: all .3s ease-in-out;
@@ -230,7 +235,7 @@ a:hover {
     border-color: rgba(0, 0, 0, .1);
 }
 
-.d-bloc .panel .a-btn,
+.d-bloc .panel,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
@@ -654,14 +659,13 @@ a[data-lightbox]:hover img {
 }
 
 
+
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
 label,
-.btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
@@ -691,7 +695,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 20px;
 }
 
 .tight-width-whitespace {
@@ -737,7 +741,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color:#333333;
 }
 
 h4 {
@@ -795,7 +799,7 @@ h4 {
 }
 
 .tc-white {
-    color:White;
+    color:teal;
 }
 
 .btn-atomic-tangerine {
