@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
+    background:lightblue;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -11,11 +11,14 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    padding: 10px;
+    
 }
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    background-color: #364577;
 }
 
 #page-loading-blocs-notifaction {
@@ -773,7 +776,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: lightblue;
 }
 
 .bgc-atomic-tangerine {
